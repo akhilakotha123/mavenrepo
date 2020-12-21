@@ -13,6 +13,10 @@ public class Calc {
 	{
 		return a*b;
 	}
+	public static int div(int a,int b)
+	{
+		return a/b;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -20,6 +24,7 @@ public class Calc {
 		System.out.println("diff="+sub(50,20));
 		System.out.println("sum="+add(10,50));
 		System.out.println("mul="+mul(10,50));
+		System.out.println("div="+div(10,5));
 	}
 
 }
